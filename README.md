@@ -11,3 +11,7 @@ CSS for styling and layout
 JavaScript for quiz logic, randomization, and score tracking
 EDITOR: Visual Studio Code
 BROWSER: Opera GX
+
+>OUTPUTS:
+<img width="604" height="319" alt="Image" src="https://github.com/user-attachments/assets/f11d4620-f0da-4f1c-a43a-a002ed850309" />
+<img width="616" height="593" alt="Image" src="https://github.com/user-attachments/assets/0cd331f6-c1c3-4b31-968a-2db6bcf62d65" />
