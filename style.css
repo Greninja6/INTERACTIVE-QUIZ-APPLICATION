@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    background-color: #f6f7fb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 20px;
+    color: #000000ff;
+}
+
+#options {
+    margin-top: 10px;
+}
+
+.option {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #f1f5f9;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.25s ease, transform 0.1s ease;
+}
+
+.option:hover {
+    background: #9321d9ff;
+    transform: translateY(-1px);
+}
+
+#feedback {
+    margin-top: 14px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#score {
+    margin-top: 4px;
+    font-size: 13px;
+    color: #1c5bd9ff;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #6366f1;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #4f46e5;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .quiz-container {
+        margin: 16px;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
